@@ -10,7 +10,7 @@ from utils.agent import Agent
 from utils.history import History
 from utils.problem import Problem
 from utils.target import Target
-from utils.termination import Termination
+# from utils.termination import Termination
 from utils.validator import Validator
 
 
@@ -170,29 +170,29 @@ class Optimizer:
     #             self.logger.warning(f"The parallel mode: {self.mode} is selected. But n_workers is not set. The default n_workers = 4 is used.")
     #             self.n_workers = 4
 
-    def check_termination(self, mode="start", termination=None, epoch=None):
-        if mode == "start":
-            self.termination = termination
-            if termination is not None:
-                if isinstance(termination, Termination):
-                    self.termination = termination
-                elif type(termination) == dict:
-                    self.termination = Termination(log_to=self.problem.log_to, log_file=self.problem.log_file, **termination)
-                else:
-                    raise ValueError("Termination needs to be a dict or an instance of Termination class.")
-                self.nfe_counter = 0
-                self.termination.set_start_values(0, self.nfe_counter, time.perf_counter(), 0)
-        else:
-            finished = False
-            if self.termination is not None:
-                es = self.history.get_global_repeated_times(self.termination.epsilon)
-                finished = self.termination.should_terminate(epoch, self.nfe_counter, time.perf_counter(), es)
-                if finished:
-                    self.logger.warning(self.termination.message)
-            return finished
+    # def check_termination(self, mode="start", termination=None, epoch=None):
+    #     if mode == "start":
+    #         self.termination = termination
+    #         if termination is not None:
+    #             if isinstance(termination, Termination):
+    #                 self.termination = termination
+    #             elif type(termination) == dict:
+    #                 self.termination = Termination(log_to=self.problem.log_to, log_file=self.problem.log_file, **termination)
+    #             else:
+    #                 raise ValueError("Termination needs to be a dict or an instance of Termination class.")
+    #             self.nfe_counter = 0
+    #             self.termination.set_start_values(0, self.nfe_counter, time.perf_counter(), 0)
+    #     else:
+    #         finished = False
+    #         if self.termination is not None:
+    #             es = self.history.get_global_repeated_times(self.termination.epsilon)
+    #             finished = self.termination.should_terminate(epoch, self.nfe_counter, time.perf_counter(), es)
+    #             if finished:
+    #                 self.logger.warning(self.termination.message)
+    #         return finished
 
     def solve(self, problem: Union[Dict, Problem] = None, mode: str = 'single', n_workers: int = None,
-              termination: Union[Dict, Termination] = None, starting_solutions: Union[List, np.ndarray, Tuple] = None,
+             starting_solutions: Union[List, np.ndarray, Tuple] = None,
               seed: int = None) -> Agent:
         """
         Args:
@@ -214,7 +214,7 @@ class Optimizer:
         """
         self.check_problem(problem, seed)
         # self.check_mode_and_workers(mode, n_workers)
-        self.check_termination("start", termination, None)
+        # self.check_termination("start", termination, None)
         self.initialize_variables()
 
         self.before_initialization(starting_solutions)
@@ -234,8 +234,8 @@ class Optimizer:
 
             time_epoch = time.perf_counter() - time_epoch
             self.track_optimize_step(self.pop, epoch, time_epoch)
-            if self.check_termination("end", None, epoch):
-                break
+            # if self.check_termination("end", None, epoch):
+            #     break
         self.track_optimize_process()
         return self.g_best
 
