@@ -1,0 +1,12 @@
+Fonction: ackley_function, Dimension: 30, Exécution: 1, Fitness: 6.311209880652928
+Fonction: ackley_function, Dimension: 30, Exécution: 2, Fitness: 6.048194396172583
+Fonction: ackley_function, Dimension: 30, Exécution: 3, Fitness: 6.625846249772934
+Fonction: ackley_function, Dimension: 30, Exécution: 4, Fitness: 6.211595332662611
+Fonction: ackley_function, Dimension: 30, Exécution: 5, Fitness: 6.618046283278051
+Fonction: ackley_function, Dimension: 30, Exécution: 6, Fitness: 6.65854692124163
+Fonction: ackley_function, Dimension: 30, Exécution: 7, Fitness: 6.631544785424541
+Fonction: ackley_function, Dimension: 30, Exécution: 8, Fitness: 6.647935430650392
+Fonction: ackley_function, Dimension: 30, Exécution: 9, Fitness: 6.606281506839608
+Fonction: ackley_function, Dimension: 30, Exécution: 10, Fitness: 6.346849718369075
+Fonction: ackley_function, Dimension: 30, Fitness Moyenne sur 10 exécutions: 6.470605050506435
+Fonction: ackley_function, Dimension: 30, Écart Type sur 10 exécutions: 0.21051262524712006

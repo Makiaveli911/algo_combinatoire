@@ -1,0 +1,12 @@
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 1, Fitness: 9928821.58583256
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 2, Fitness: 10181700.086099667
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 3, Fitness: 10867719.998803921
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 4, Fitness: 10383571.776823396
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 5, Fitness: 9680204.151111843
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 6, Fitness: 9915697.021351818
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 7, Fitness: 10703038.2798509
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 8, Fitness: 9652927.5366511
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 9, Fitness: 9741655.79752537
+Fonction: rosenbrock_function, Dimension: 100, Exécution: 10, Fitness: 9843168.353987109
+Fonction: rosenbrock_function, Dimension: 100, Fitness Moyenne sur 10 exécutions: 10089850.45880377
+Fonction: rosenbrock_function, Dimension: 100, Écart Type sur 10 exécutions: 409005.1258637818

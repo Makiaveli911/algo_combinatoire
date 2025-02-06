@@ -1,0 +1,12 @@
+Fonction: ackley_function, Dimension: 100, Ex�cution: 1, Fitness: 12.774595840311987
+Fonction: ackley_function, Dimension: 100, Ex�cution: 2, Fitness: 12.644105643533175
+Fonction: ackley_function, Dimension: 100, Ex�cution: 3, Fitness: 12.815727321037654
+Fonction: ackley_function, Dimension: 100, Ex�cution: 4, Fitness: 12.709089412550872
+Fonction: ackley_function, Dimension: 100, Ex�cution: 5, Fitness: 12.1641617562398
+Fonction: ackley_function, Dimension: 100, Ex�cution: 6, Fitness: 12.640742296518951
+Fonction: ackley_function, Dimension: 100, Ex�cution: 7, Fitness: 12.523023853794598
+Fonction: ackley_function, Dimension: 100, Ex�cution: 8, Fitness: 12.739093785320183
+Fonction: ackley_function, Dimension: 100, Ex�cution: 9, Fitness: 12.9200348441342
+Fonction: ackley_function, Dimension: 100, Ex�cution: 10, Fitness: 12.644916082008816
+Fonction: ackley_function, Dimension: 100, Fitness Moyenne sur 10 ex�cutions: 12.657549083545025
+Fonction: ackley_function, Dimension: 100, �cart Type sur 10 ex�cutions: 0.19469871483442092

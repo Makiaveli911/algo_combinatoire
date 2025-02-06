@@ -1,0 +1,12 @@
+Fonction: rastrigin_function, Dimension: 30, Exécution: 1, Fitness: 321.54559222160424
+Fonction: rastrigin_function, Dimension: 30, Exécution: 2, Fitness: 305.84671517327604
+Fonction: rastrigin_function, Dimension: 30, Exécution: 3, Fitness: 312.5963246433985
+Fonction: rastrigin_function, Dimension: 30, Exécution: 4, Fitness: 337.982858183347
+Fonction: rastrigin_function, Dimension: 30, Exécution: 5, Fitness: 327.6168701210594
+Fonction: rastrigin_function, Dimension: 30, Exécution: 6, Fitness: 285.65289520226054
+Fonction: rastrigin_function, Dimension: 30, Exécution: 7, Fitness: 308.77171072804
+Fonction: rastrigin_function, Dimension: 30, Exécution: 8, Fitness: 308.71865772741387
+Fonction: rastrigin_function, Dimension: 30, Exécution: 9, Fitness: 324.3353668253582
+Fonction: rastrigin_function, Dimension: 30, Exécution: 10, Fitness: 299.9785755653459
+Fonction: rastrigin_function, Dimension: 30, Fitness Moyenne sur 10 exécutions: 313.30455663911033
+Fonction: rastrigin_function, Dimension: 30, Écart Type sur 10 exécutions: 14.294574599191057
