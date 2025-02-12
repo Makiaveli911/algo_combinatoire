@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++
+# Install script for directory: C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/c__")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/C__")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

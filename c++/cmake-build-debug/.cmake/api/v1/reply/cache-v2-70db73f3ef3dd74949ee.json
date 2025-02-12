@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++/cmake-build-debug"
+			"value" : "c:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++"
+			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/c__"
+			"value" : "C:/Program Files (x86)/C__"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "c__"
+			"value" : "C__"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,19 +1270,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "c___BINARY_DIR",
+			"name" : "C___BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1291,10 +1279,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++/cmake-build-debug"
+			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++/cmake-build-debug"
 		},
 		{
-			"name" : "c___IS_TOP_LEVEL",
+			"name" : "C___IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1306,7 +1294,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "c___SOURCE_DIR",
+			"name" : "C___SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1315,7 +1303,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++"
+			"value" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

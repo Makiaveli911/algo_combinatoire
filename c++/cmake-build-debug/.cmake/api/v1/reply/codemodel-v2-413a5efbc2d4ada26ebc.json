@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "c__",
+					"name" : "C__",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "c__::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-c__-Debug-56e81daea73670319862.json",
-					"name" : "c__",
+					"id" : "C__::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C__-Debug-dda5a606403af9bfae93.json",
+					"name" : "C__",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++/cmake-build-debug",
-		"source" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/c++"
+		"build" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++/cmake-build-debug",
+		"source" : "C:/Users/chaid/Documents/exercice_a_faire/Optimisation_combinatoire/C++"
 	},
 	"version" : 
 	{
